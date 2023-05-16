@@ -1,5 +1,20 @@
 [
   {
+    "site": "ZhongZiSo",
+    "group": "//ul[@class='list-group']",
+    "magnet": "./li[1]/a[1]/@href",
+    "name": "./li[1]/a[1]",
+    "size": "./li[2]/dl[1]/dd[2]",
+    "date": "./li[2]/dl[1]/dd[3]",
+    "url": "https://m.zhongziso888.xyz",
+    "paths": {
+      "time": "/list/%s/%d",
+      "size": "/list_length/%s/%d",
+      "hot": "/list_click/%s/%d"
+    },
+    "type": 10
+  },
+  {
     "site": "btsow",
     "url": "https://btsow.hair",
     "paths": {
@@ -55,21 +70,6 @@
     "pageSize": 100,
     "searchUrl": "http://magnetsearch.org",
     "isMix": true
-  },
-  {
-    "site": "ZhongZiSo",
-    "group": "//ul[@class='list-group']",
-    "magnet": "./li[1]/a[1]/@href",
-    "name": "./li[1]/a[1]",
-    "size": "./li[2]/dl[1]/dd[2]",
-    "date": "./li[2]/dl[1]/dd[3]",
-    "url": "https://m.zhongziso888.xyz",
-    "paths": {
-      "time": "/list/%s/%d",
-      "size": "/list_length/%s/%d",
-      "hot": "/list_click/%s/%d"
-    },
-    "type": 10
   },
   {
     "site": "btmovi",
