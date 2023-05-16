@@ -1,5 +1,55 @@
 [
   {
+    "site": "torrentkitty",
+    "url": "https://www.torrentkitty.red",
+    "paths": {
+      "preset": "/search/{k}/{p}"
+    },
+    "group": "//table[@id='archiveResult']/tbody/tr",
+    "magnet": "./td[4]/a[2]/@href",
+    "name": "./td[1]",
+    "size": "./td[2]",
+    "date": "./td[3]",
+    "type": 22,
+    "pageSize": 20
+  },
+  {
+    "site": "TheBay",
+    "url": "https://thepiratebay10.org",
+    "paths": {
+      "preset": "/search/{k}/{p}/99/1",
+      "time": "/search/{k}/{p}/3/",
+      "size": "/search/{k}/{p}/5/",
+      "hot": "/search/{k}/{p}/9/"
+    },
+    "group": "//table[@id='searchResult']/tbody/tr",
+    "magnet": "./td[2]/a[1]/@href",
+    "name": "./td[2]/div/a",
+    "size": "./td[2]/font/text()",
+    "date": "./td[2]/font/text()",
+    "hot": "./td[4]",
+    "seeders": "./td[3]",
+    "leechers": "./td[4]",
+    "type": 8
+  },
+  {
+    "site": "btmovi",
+    "url": "http://www.btmovi.org",
+    "paths": {
+      "preset": "/so/{k}_rel_{p}.html",
+      "time": "/so/{k}_time_{p}.html",
+      "size": "/so/{k}_size_{p}.html"
+    },
+    "group": "//div[@class='search-item']",
+    "magnet": "./div[1]/h3[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[3]/span[3]/b[1]",
+    "date": "./div[3]/span[2]/b[1]",
+    "hot": "./div[3]/span[4]/b[1]",
+    "type": 11,
+    "pageSize": 10
+  },
+  {
     "site": "ZhongZiSo",
     "group": "//ul[@class='list-group']",
     "magnet": "./li[1]/a[1]/@href",
@@ -51,7 +101,6 @@
       "files": "//div[@class=\"torrent-file-list panel-body\"]/ul/li"
     }
   },
-  
   {
     "site": "holygod",
     "url": "http://magnetsearch.org",
@@ -71,56 +120,6 @@
     "searchUrl": "http://magnetsearch.org",
     "isMix": true
   },
-  {
-    "site": "btmovi",
-    "url": "http://www.btmovi.org",
-    "paths": {
-      "preset": "/so/{k}_rel_{p}.html",
-      "time": "/so/{k}_time_{p}.html",
-      "size": "/so/{k}_size_{p}.html"
-    },
-    "group": "//div[@class='search-item']",
-    "magnet": "./div[1]/h3[1]/a[1]/@href",
-    "name": "./div[1]/h3[1]/a[1]",
-    "size": "./div[3]/span[3]/b[1]",
-    "date": "./div[3]/span[2]/b[1]",
-    "hot": "./div[3]/span[4]/b[1]",
-    "type": 11,
-    "pageSize": 10
-  },
-  {
-    "site": "TheBay",
-    "url": "https://thepiratebay10.org",
-    "paths": {
-      "preset": "/search/{k}/{p}/99/1",
-      "time": "/search/{k}/{p}/3/",
-      "size": "/search/{k}/{p}/5/",
-      "hot": "/search/{k}/{p}/9/"
-    },
-    "group": "//table[@id='searchResult']/tbody/tr",
-    "magnet": "./td[2]/a[1]/@href",
-    "name": "./td[2]/div/a",
-    "size": "./td[2]/font/text()",
-    "date": "./td[2]/font/text()",
-    "hot": "./td[4]",
-    "seeders": "./td[3]",
-    "leechers": "./td[4]",
-    "type": 8
-  },
-  {
-      "site": "torrentkitty",
-      "url": "https://www.torrentkitty.red",
-      "paths": {
-        "preset": "/search/{k}/{p}"
-      },
-      "group": "//table[@id='archiveResult']/tbody/tr",
-      "magnet": "./td[4]/a[2]/@href",
-      "name": "./td[1]",
-      "size": "./td[2]",
-      "date": "./td[3]",
-      "type": 22,
-      "pageSize": 20
-    },
   {
     "site": "sokankan",
     "url": "https://www.sokk21.one",
