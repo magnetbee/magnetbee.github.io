@@ -1,5 +1,21 @@
 [
   {
+    "site": "btsow",
+    "url": "https://btsow.hair",
+    "paths": {
+      "preset": "/search/{k}/page/{p}"
+    },
+    "group": "//div[@class='row']",
+    "magnet": "./a/@href",
+    "name": "./a/div[1]",
+    "size": "./div[1]",
+    "date": "./div[2]",
+    "detail": {
+      "files": "//div[@class=\"detail data-list\"]/div/text()"
+    },
+    "type": 1
+  },
+  {
     "site": "torrentkitty",
     "url": "https://www.torrentkitty.red",
     "paths": {
@@ -64,22 +80,7 @@
     },
     "type": 10
   },
-  {
-    "site": "btsow",
-    "url": "https://btsow.hair",
-    "paths": {
-      "preset": "/search/{k}/page/{p}"
-    },
-    "group": "//div[@class='row']",
-    "magnet": "./a/@href",
-    "name": "./a/div[1]",
-    "size": "./div[1]",
-    "date": "./div[2]",
-    "detail": {
-      "files": "//div[@class=\"detail data-list\"]/div/text()"
-    },
-    "type": 1
-  },
+  
   {
     "site": "Sukebei Nyaa",
     "proxy": true,
