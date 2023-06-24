@@ -16,6 +16,53 @@
     "type": 1
   },
   {
+    "site": "btmovi",
+    "url": "http://www.btmovi.org",
+    "paths": {
+      "preset": "/so/{k}_rel_{p}.html",
+      "time": "/so/{k}_time_{p}.html",
+      "size": "/so/{k}_size_{p}.html"
+    },
+    "group": "//div[@class='search-item']",
+    "magnet": "./div[1]/h3[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[3]/span[3]/b[1]",
+    "date": "./div[3]/span[2]/b[1]",
+    "hot": "./div[3]/span[4]/b[1]",
+    "type": 11,
+    "pageSize": 10
+  },
+  {
+    "site": "ZhongZiSo",
+    "group": "//ul[@class='list-group']",
+    "magnet": "./li[1]/a[1]/@href",
+    "name": "./li[1]/a[1]",
+    "size": "./li[2]/dl[1]/dd[2]",
+    "date": "./li[2]/dl[1]/dd[3]",
+    "url": "https://m.zhongziso888.xyz",
+    "paths": {
+      "time": "/list/%s/%d",
+      "size": "/list_length/%s/%d",
+      "hot": "/list_click/%s/%d"
+    },
+    "type": 10
+  },
+  {
+    "site": "sokankan",
+    "url": "https://www.sokk21.one",
+    "paths": {
+      "preset": "/search/{k}/page-{p}.html"
+    },
+    "group": "//div[@style='overflow: hidden;']",
+    "magnet": "./a[1]/@href",
+    "name": "./a[1]",
+    "size": "./p[1]",
+    "date": "./p[3]",
+    "seeders": "./p[3]",
+    "type": 18,
+    "pageSize": 20
+  },
+  {
     "site": "torrentkitty",
     "url": "https://www.torrentkitty.red",
     "paths": {
@@ -48,39 +95,6 @@
     "leechers": "./td[4]",
     "type": 8
   },
-  {
-    "site": "btmovi",
-    "url": "http://www.btmovi.org",
-    "paths": {
-      "preset": "/so/{k}_rel_{p}.html",
-      "time": "/so/{k}_time_{p}.html",
-      "size": "/so/{k}_size_{p}.html"
-    },
-    "group": "//div[@class='search-item']",
-    "magnet": "./div[1]/h3[1]/a[1]/@href",
-    "name": "./div[1]/h3[1]/a[1]",
-    "size": "./div[3]/span[3]/b[1]",
-    "date": "./div[3]/span[2]/b[1]",
-    "hot": "./div[3]/span[4]/b[1]",
-    "type": 11,
-    "pageSize": 10
-  },
-  {
-    "site": "ZhongZiSo",
-    "group": "//ul[@class='list-group']",
-    "magnet": "./li[1]/a[1]/@href",
-    "name": "./li[1]/a[1]",
-    "size": "./li[2]/dl[1]/dd[2]",
-    "date": "./li[2]/dl[1]/dd[3]",
-    "url": "https://m.zhongziso888.xyz",
-    "paths": {
-      "time": "/list/%s/%d",
-      "size": "/list_length/%s/%d",
-      "hot": "/list_click/%s/%d"
-    },
-    "type": 10
-  },
-  
   {
     "site": "Sukebei Nyaa",
     "proxy": true,
@@ -120,21 +134,6 @@
     "pageSize": 100,
     "searchUrl": "http://magnetsearch.org",
     "isMix": true
-  },
-  {
-    "site": "sokankan",
-    "url": "https://www.sokk21.one",
-    "paths": {
-      "preset": "/search/{k}/page-{p}.html"
-    },
-    "group": "//div[@style='overflow: hidden;']",
-    "magnet": "./a[1]/@href",
-    "name": "./a[1]",
-    "size": "./p[1]",
-    "date": "./p[3]",
-    "seeders": "./p[3]",
-    "type": 18,
-    "pageSize": 20
   },
   {
       "site": "torrentz2",
