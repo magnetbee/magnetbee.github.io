@@ -64,7 +64,7 @@
   },
   {
     "site": "torrentkitty",
-    "url": "https://www.torrentkitty.red",
+    "url": "http://www.torkitty.com",
     "paths": {
       "preset": "/search/{k}/{p}"
     },
