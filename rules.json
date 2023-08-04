@@ -117,22 +117,22 @@
     }
   },
   {
-    "site": "holygod",
-    "url": "http://magnetsearch.org",
-    "paths": {
-      "preset": "/api/v1/all/search?query={k}"
-    },
-    "group": "//div[@class='results']/dl",
-    "magnet": "./dt/a/@href",
-    "name": "./dt/a",
-    "size": "./dd/span[3]",
-    "hot": "./dd/span[4]",
-    "date": "./dd/span[2]",
-    "seeders": "./dd/span[4]",
-    "leechers": "./dd/span[5]",
-    "type": 21,
-    "pageSize": 100,
-    "searchUrl": "http://magnetsearch.org",
-    "isMix": true
-  }
+      "site": "holygod",
+      "url": "http://magnetsearch.org",
+      "paths": {
+        "preset": "/api/v1/all/search?query={k}"
+      },
+      "group": "//div[@class='results']/dl",
+      "magnet": "./dt/a/@href",
+      "name": "./dt/a",
+      "size": "./dd/span[3]",
+      "hot": "./dd/span[4]",
+      "date": "./dd/span[2]",
+      "seeders": "./dd/span[4]",
+      "leechers": "./dd/span[5]",
+      "type": 21,
+      "pageSize": 100,
+      "searchUrl": "http://magnetsearch.org",
+      "isMix": true
+    }
 ]
