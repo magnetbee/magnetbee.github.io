@@ -48,21 +48,6 @@
     "type": 10
   },
   {
-    "site": "sokankan",
-    "url": "https://www.sokk21.one",
-    "paths": {
-      "preset": "/search/{k}/page-{p}.html"
-    },
-    "group": "//div[@style='overflow: hidden;']",
-    "magnet": "./a[1]/@href",
-    "name": "./a[1]",
-    "size": "./p[1]",
-    "date": "./p[3]",
-    "seeders": "./p[3]",
-    "type": 18,
-    "pageSize": 20
-  },
-  {
     "site": "torrentkitty",
     "url": "http://www.torkitty.com",
     "paths": {
